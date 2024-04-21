@@ -1,0 +1,99 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/full_body_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <!-- Название -->
+    <TextView
+        android:id="@+id/full_body_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Тренировка фуллбоди"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Объяснение -->
+    <TextView
+        android:id="@+id/full_body_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Фуллбоди-тренировка - это методика тренировок, при которой все мышечные группы работают в течение одной тренировки. Это позволяет заниматься всеми группами мышц в один день, обеспечивая полное развитие тела."
+        android:textSize="15sp"
+        android:textColor="#8D575656"
+        android:layout_below="@id/full_body_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"/>
+
+    <!-- Кнопки тренировок -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/day1"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="День 1"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/mint"
+        android:layout_below="@id/full_body_explanation"
+        android:layout_marginTop="40dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/day2"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="День 2"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/mint"
+        android:textSize="20sp"
+        android:layout_below="@id/day1"
+        android:layout_marginTop="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/day3"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/mint"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:text="День 3"
+        android:textSize="20sp"
+        android:layout_below="@id/day2"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Изображение -->
+
+    <!-- Цитата -->
+    <ImageView
+        android:id="@+id/full_body_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/day3"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="24dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/full_body_image" />
+
+    <TextView
+        android:id="@+id/full_body_quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/full_body_image"
+        android:text="«Великие результаты требуют великих усилий.»"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="italic" />
+</RelativeLayout>
