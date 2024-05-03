@@ -7,7 +7,7 @@
     android:background="@color/white"
     android:padding="16dp">
 
-    <!-- Название -->
+
     <TextView
         android:id="@+id/split_title"
         android:layout_width="wrap_content"
@@ -19,7 +19,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"/>
 
-    <!-- Объяснение -->
+
     <TextView
         android:id="@+id/split_explanation"
         android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"/>
 
-    <!-- Кнопки сплитов -->
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/chest_split_button"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
@@ -73,18 +73,18 @@
         android:layout_below="@id/back_split_button"
         android:layout_marginTop="16dp"/>
 
-    <!-- Изображение -->
+
     <ImageView
         android:id="@+id/split_image"
         android:layout_width="200dp"
         android:layout_height="190dp"
         android:src="@drawable/split_image"
         android:layout_marginStart="70dp"
-        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
         android:layout_below="@id/leg_split_button"
         android:layout_marginTop="24dp"/>
 
-    <!-- Цитата -->
+
     <TextView
         android:id="@+id/split_quote"
         android:layout_width="wrap_content"

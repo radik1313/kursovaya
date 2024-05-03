@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Находим кнопки на макете
+        // Находим кнопки
         Button splitTrainingButton = findViewById(R.id.split_training_button);
         Button fullBodyTrainingButton = findViewById(R.id.full_body_training_button);
 

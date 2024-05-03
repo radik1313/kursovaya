@@ -14,7 +14,7 @@ public class SplitTrainingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_split_training);
 
-        // Находим кнопки на макете
+        // Находим кнопки
         Button chestButton = findViewById(R.id.chest_split_button);
         Button backButton = findViewById(R.id.back_split_button);
         Button legButton = findViewById(R.id.leg_split_button);

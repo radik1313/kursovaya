@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
-    <!-- Centered Text at the Top -->
+
     <TextView
         android:id="@+id/centeredText"
         android:layout_width="wrap_content"
@@ -15,7 +15,7 @@
         android:textStyle="bold"
         android:textSize="26sp"/>
 
-    <!-- ScrollView for the List of Elements -->
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!-- Example Element 1 -->
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -46,9 +46,9 @@
                     android:layout_width="400dp"
                     android:layout_height="200dp"
                     android:src="@drawable/lone"
-                    android:layout_alignParentEnd="true"
+                    android:layout_centerHorizontal="true"
                     android:layout_marginTop="150dp"
-                    android:layout_marginEnd="10dp"
+
                     />
 
             </RelativeLayout>
@@ -69,12 +69,11 @@
                     android:layout_width="400dp"
                     android:layout_height="200dp"
                     android:src="@drawable/fonetwo"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginEnd="10dp"
+                    android:layout_centerHorizontal="true"
                     android:layout_marginTop="150dp" />
 
             </RelativeLayout>
-            <!-- Add more elements as needed -->
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -92,8 +91,7 @@
                     android:layout_width="400dp"
                     android:layout_height="200dp"
                     android:src="@drawable/fonetre"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginEnd="10dp"
+                    android:layout_centerHorizontal="true"
                     android:layout_marginTop="150dp"/>
 
             </RelativeLayout>
@@ -115,8 +113,7 @@
                     android:layout_width="400dp"
                     android:layout_height="200dp"
                     android:src="@drawable/gtwo"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginEnd="10dp"
+                    android:layout_centerHorizontal="true"
                     android:layout_marginTop="200dp"/>
 
             </RelativeLayout>
@@ -138,8 +135,7 @@
                     android:layout_width="400dp"
                     android:layout_height="200dp"
                     android:src="@drawable/fonefive"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginEnd="10dp"
+                    android:layout_centerHorizontal="true"
                     android:layout_marginTop="150dp"/>
 
             </RelativeLayout>
